@@ -1,0 +1,58 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    display: flex;
+    flex-direction: row;
+    height: 100vh;
+    width: 100vw;
+}
+
+nav{
+    flex-grow: 1;
+    background-color: gray;
+}
+
+main{
+    flex-grow: 10;
+    background-color: wheat;
+    display: flex; 
+    flex-direction: column;
+}
+
+header{
+    flex-grow: 1;
+    background-color: tomato;
+}
+
+.content{
+    flex-grow: 8;
+    background-color: thistle;
+    display: flex;
+    flex-direction: row;
+}
+
+aside{
+    flex-grow: 1;
+    height: 40vh;
+    background-color: yellow;
+}
+
+.posts{
+    flex-grow: 5;
+    background-color: turquoise;
+    display: flex;
+    flex-direction: column;
+}
+
+.post{
+    flex-grow: 1;
+    margin-top: 8px;
+    margin-left: 8px;
+}
+
+.post img{
+    border-radius: 10px;
+}
